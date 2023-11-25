@@ -1,0 +1,12 @@
+tqdm
+numpy
+pandas
+pyarrow
+boto3
+awswrangler
+python-dotenv
+torch --pre --index-url https://download.pytorch.org/whl/nightly/cpu
+torchrec --pre --index-url https://download.pytorch.org/whl/nightly/cpu
+torchmetrics --pre --index-url https://download.pytorch.org/whl/nightly/cpu
+omegaconf
+tensorboard

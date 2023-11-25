@@ -1,0 +1,3 @@
+s3:
+  bucket: ${oc.env:AWS_S3_BUCKET}
+  prefix: ${oc.env:AWS_S3_PREFIX}
