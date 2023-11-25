@@ -1,3 +1,7 @@
-s3:
-  bucket: ${oc.env:AWS_S3_BUCKET}
-  prefix: ${oc.env:AWS_S3_PREFIX}
+aws:
+  s3:
+    bucket: ${oc.env:AWS_S3_BUCKET}
+    prefix: ${oc.env:AWS_S3_PREFIX}
+  sagemaker:
+    role: ${oc.env:AWS_SAGEMAKER_ROLE}
+    spark_logs_uri: ${oc.env:AWS_SAGEMAKER_SPARK_LOGS_URI}
