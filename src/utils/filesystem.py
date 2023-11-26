@@ -29,9 +29,9 @@ def get_parent_path(path: str) -> str:
     return str(pathlib.Path(path).parent)
 
 def mkdir(path: str, parents=True, exist_ok=True) -> None:
-    logger.info(f"creating path {path}...")
+    logger.info(f"creating path '{path}'...")
     result = pathlib.Path(path).mkdir(parents=parents, exist_ok=exist_ok)
-    logger.info(f"creating path {path}: done")
+    logger.info(f"creating path '{path}': done")
     return result
 
 def rm(path: str, ignore_errors=True) -> None:
